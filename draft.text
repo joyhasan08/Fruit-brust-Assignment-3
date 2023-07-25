@@ -1,0 +1,72 @@
+
+
+
+
+
+
+
+
+<!-- cerusel -->
+      <section class="font-man lg:max-w-[1440px]  mx-auto ">
+        <div class="carousel">
+
+          <div id="slide1" class="carousel-item relative w-full flex-col gap-5">
+            <div class=" relative md:absolute md:w-1/2  flex justify-center   ">
+              <div class=" mt-40 ml-40 text-center">
+                <h1 class="  md:text-7xl font-extrabold ">Exotic tastes at your doorstep</h1>
+                <p class="text-xs md:text-4 font-light flex-wrap w-fit mx-auto">We supply highly quality organic products</p>
+                <button class="inline-flex items-center bg-[#E76F51] border-0 py-1 px-3 md:py-2 md:px-6 focus:outline-none hover:bg-gray-200 rounded md:text-xl text-bold font-bold mt-4 mb-10 md:mt-0 text-white ">Purchase
+                </button>
+              </div>
+            </div>
+            <img src="./images/banner1.png" class="w-full " />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a> 
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+
+          <div id="slide2" class="carousel-item relative w-full flex-col gap-5">
+            <div class=" relative md:absolute md:w-1/2  font-bold space-x-4 space-y-6 md:px-12 md:py ">
+              <h1 class=" ">Ride-on R15 V4 with Smile</h1>
+                <p class=" ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae recusandae animi, aspernatur vel aliquid possimus sunt qui aliquam sint asperiores laudantium quis non alias labore impedit. Fugit tempore ipsa enim!.</p>
+                <button class="inline-flex items-center bg-[#E76F51] border-0 py-1 px-3 md:py-2 md:px-6 focus:outline-none hover:bg-gray-200 rounded md:text-xl text-bold font-bold mt-4 mb-10 md:mt-0 text-white ">Purchase
+                </button>
+            </div>
+            <img src="./images/banner2.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a> 
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+
+          <div id="slide3" class="carousel-item relative w-full flex-col gap-5">
+            <div class=" relative md:absolute md:w-1/2  font-bold space-x-4 space-y-6 md:px-12 md:py ">
+              <h1 class=" text-xl pl-4 md:text-6xl md:pt-12 ">Ride-on R15 V4 with Smile</h1>
+                <p class=" md:text-4 font-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae recusandae animi, aspernatur vel aliquid possimus sunt qui aliquam sint asperiores laudantium quis non alias labore impedit. Fugit tempore ipsa enim!.</p>
+                <button class="inline-flex items-center bg-[#E76F51] border-0 py-1 px-3 md:py-2 md:px-6 focus:outline-none hover:bg-gray-200 rounded md:text-xl text-bold font-bold mt-4 mb-10 md:mt-0 text-white ">Purchase
+                </button>
+            </div>
+            <img src="./images/banner3.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle">❮</a> 
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+
+          <div id="slide4" class="carousel-item relative w-full flex-col gap-5">
+            <div class=" relative md:absolute md:w-1/2  font-bold space-x-4 space-y-6 md:px-12 md:py md:mt-96 ">
+              <h1 class=" text-xl pl-4 md:text-6xl md:pt-12 md:text-white ">Ride-on R15 V4 with Smile</h1>
+                <p class=" md:text-4 font-light md:text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae recusandae animi, aspernatur vel aliquid possimus sunt qui aliquam sint asperiores laudantium quis non alias labore impedit. Fugit tempore ipsa enim!.</p>
+                <button class="inline-flex items-center bg-[#E76F51] border-0 py-1 px-3 md:py-2 md:px-6 focus:outline-none hover:bg-gray-200 rounded md:text-xl text-bold font-bold mt-4 mb-10 md:mt-0 text-white ">Purchase
+                </button>
+            </div>
+            <img src="./images/banner4.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle">❮</a> 
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+
+        </div>
+      </section>

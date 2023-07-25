@@ -31,8 +31,8 @@
 <body class="font-man text-white">
     <header>
       <!-- navbar -->
-      <nav class="lg:max-w-[1440px] mx-auto bg-[#F85559] rounded-[500px] flex flex-col md:flex-row lg:flex-row justify-between items-center py-5 px-7 lg:my-14 ">
-        <div class="flex list-none gap-4 text-base font-normal
+      <nav class="lg:max-w-[1440px] mx-auto md:bg-[#F85559] rounded-[500px] flex flex-col md:flex-row lg:flex-row justify-between items-center py-5 px-7 lg:my-14 ">
+        <div class=" md:flex list-none gap-4 text-base font-normal hidden md:block
         ">
          
             <li><a href="">Home</a></li>
@@ -43,13 +43,13 @@
 
         <div class="flex items-center  ">
           <img src="./images/logo.png" alt="">
-          <h1 class="lg:text-4xl font-bold px-1">Fruit Burst</h1>
+          <h1 class="lg:text-4xl font-bold px-1 text-black md:text-white">Fruit Burst</h1>
         </div>
-        <div class="form-control">
+        <div class="form-control hidden md:block">
           <input  type="text" placeholder="Search" class="input input-bordered w-80 rounded-3xl " />
         </div>
         <!-- drop down -->
-        <div class="dropdown lg:hidden md:hidden">
+        <div class="dropdown hidden ">
           <label tabindex="0" class="btn btn-ghost btn-circle">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
           </label>
@@ -60,7 +60,45 @@
           </ul>
         </div>
       </nav>
-      
+      <!-- cerusol -->
+      <section class="lg:max-w-[1440px] mx-auto">
+        <div class="carousel ">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="./images/banner1.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a> 
+              <div class="text-center lg:-mt-28">
+                <h1 class="md:text-7xl font-extrabold md:py-6">Exotic tastes at your<br>doorstep</h1>
+                <p class="md:text-xl font-medium md:pb-8">We supply highly quality organic products</p>
+                <button class="bg-[#F85559] md:px-8 md:py-5 rounded-lg">Shop Now</button>
+              </div>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a> 
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle">❮</a> 
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide4" class="carousel-item relative w-full">
+            <img src="/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle">❮</a> 
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- cerusol end -->
     </header>
     <main>
       <section></section>
