@@ -1,10 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Fruit Brust</title>
-
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
      <!-- tailwaind and disyui -->
      <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
      <script src="https://cdn.tailwindcss.com"></script>
@@ -21,11 +24,50 @@
        </script>
        <style>
          .font-man{
-           font-family: 'EB Garamond', serif;
+           font-family: 'Lato', sans-serif;
          }
        </style>
 </head>
-<body>
-    
+<body class="font-man text-white">
+    <header>
+      <!-- navbar -->
+      <nav class="lg:max-w-[1440px] mx-auto bg-[#F85559] rounded-[500px] flex flex-col md:flex-row lg:flex-row justify-between items-center py-5 px-7 lg:my-14 ">
+        <div class="flex list-none gap-4 text-base font-normal
+        ">
+         
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">All fruits</a></li>
+        </div>
+
+        <div class="flex items-center  ">
+          <img src="./images/logo.png" alt="">
+          <h1 class="lg:text-4xl font-bold px-1">Fruit Burst</h1>
+        </div>
+        <div class="form-control">
+          <input  type="text" placeholder="Search" class="input input-bordered w-80 rounded-3xl " />
+        </div>
+        <!-- drop down -->
+        <div class="dropdown lg:hidden md:hidden">
+          <label tabindex="0" class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Homepage</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>About</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+    </header>
+    <main>
+      <section></section>
+    </main>
+
+
+
+    <footer></footer>
 </body>
 </html>
