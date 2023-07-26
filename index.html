@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
      <!-- tailwaind and disyui -->
-     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
      <script src="https://cdn.tailwindcss.com"></script>
      <script>
          tailwind.config = {
@@ -196,7 +196,7 @@
                 <form method="dialog" class="modal-box">
                   <h3 class="font-bold text-lg">Hello!</h3>
                     <p class="py-4">Press ESC key or click the button below to close</p>
-               <div class="modal-action">
+                 <div class="modal-action">
                  <!-- if there is a button in form, it will close the modal -->
                <button class="btn">Close</button>
               </div>
@@ -341,10 +341,35 @@
           </div>
         </div>
       </section>
+
     </main>
 
 
 
-   <footer></footer>
+   <footer class="bg-black flex justify-center items-center  ">
+    <div class=" py-36">
+      <div class="flex items-center w-fit mx-auto ">
+        <img src="./images/logo.png" alt="">
+        <h1 class="text-xl lg:text-4xl font-bold lg:px-1 text-white md:text-white">Fruit Burst</h1>
+      </div>
+      <div class="flex flex-wrap gap-1 md:gap-14 md:text-xl text-white font-normal list-none md:py-16 w-fit">
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Shop</li>
+        <li>All Fruits</li>
+        <li>Support</li>
+        <li>My Account</li>
+      </div>
+
+      <div class=" flex flex-row flex-wrap gap-10 justify-center  lg:w-fit  mx-auto md:p-3  " >
+        <span><img class="hidden md:block" src="./images/icon/fot.png" alt=""></span>
+        <span><img src="./images/icon/fot2.png" alt=""></span>
+        <span><img src="./images/icon/fot4.png" alt=""></span>
+        <span><img src="./images/icon/fot5.png" alt=""></span>
+     
+      </div>
+
+    </div>
+   </footer>
 </body>
 </html>
