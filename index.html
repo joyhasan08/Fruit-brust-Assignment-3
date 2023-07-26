@@ -41,27 +41,35 @@
             <li><a href="">All fruits</a></li>
         </div>
 
-        <div class="flex items-center  ">
-          <img src="./images/logo.png" alt="">
+        <div class="flex justify-between  items-center   ">
+          <div class="flex items-center">
+            <img src="./images/logo.png" alt="">
           <h1 class="lg:text-4xl font-bold px-1 text-black md:text-white">Fruit Burst</h1>
+          </div>
+          <!-- drop down -->
+         <div>
+          <div class="dropdown  block md:hidden lg:hidden ">
+            <label tabindex="0" class="btn btn-ghost text-black btn-square">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-fit text-black">
+              <li><a>Homepage</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All fruits</a></li>
+            </ul>
+          </div>
+         </div>
         </div>
+        
+        <!-- search bar -->
         <div class=" form-control hidden lg:block">
          <div class="flex lg:flex-row-reverse">
           <input  type="text" placeholder="Search here" class="input input-bordered w-80 rounded-3xl   " />
           <span class=" relative left-72 -bottom-3"><img class="" src="./images/icon/search.png" alt=""></span>
          </div>
         </div>
-        <!-- drop down -->
-        <div class="dropdown hidden ">
-          <label tabindex="0" class="btn btn-ghost btn-circle">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-          </label>
-          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-            <li><a>Homepage</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>About</a></li>
-          </ul>
-        </div>
+        
       </nav>
       <!-- cerusol -->
       <section class="lg:max-w-[1440px] mx-auto ">
@@ -183,7 +191,7 @@
           </div>
         </div>
         <!-- deal card -->
-        <div class=" flex flex-col md:flex-col lg:flex-row flex-wrap gap-6 lg:max-w-[1440px]  justify-between">  
+        <div class=" flex flex-col md:flex-row-reverse lg:flex-row flex-wrap gap-6 lg:max-w-[1440px]  justify-between">  
           <div class="border w-fit mx-auto p-20 lg:p-20 text-center  "> <!-- card 1 -->
             
               <img class=" md:ml-3 p-3 w-fit " src="./images/fruit6.png" alt="">
@@ -361,12 +369,12 @@
         </div>
       </section>
       <!-- why chose us -->
-       <section class="lg:max-w-[1440px] mx-auto pt-5">
+       <section class="lg:max-w-[1440px] mx-auto pt-5 mb-5 lg:mb-28">
         <h1 class="text-black text-2xl lg:text-5xl font-bold md:pb-6 md:pt-9 text-center">Why Choose Us</h1>
         <p class="text-base text-[#121212] font-medium  text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
         <div class="flex flex-col md:flex-col-reverse lg:flex-row">
           <!-- part 1 -->
-          <div>
+          <div class="flex-1 ">
             <!-- card 1-->
             <div class="flex items-center py-3 flex-1">
               <img class="p-5 rounded-full bg-slate-100" src="./images/icon/group 1.png" alt="">
